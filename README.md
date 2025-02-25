@@ -1,6 +1,8 @@
 Description de la certification
 # Bloc 3 du diplôme d'état - RNCP35288 - Niveau 6 (équivalent BAC+4)
-# Intitulé du bloc : Analyse prédictive de données structurées par l'intelligence artificielle
+
+Intitulé du bloc : 
+# Analyse prédictive de données structurées par l'intelligence artificielle
 
 Le bloc 3 de la certification CDSD atteste des compétences suivantes :
 
