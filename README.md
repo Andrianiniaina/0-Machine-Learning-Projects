@@ -1,5 +1,5 @@
 Description de la certification
-# Bloc 3 du diplôme d'état - RNCP35288 - Niveau 6 (équivalent BAC+4)
+# Bloc 3 du diplôme d'état - RNCP35288 - Niveau 6
 
 Intitulé du bloc : 
 # Analyse prédictive de données structurées par l'intelligence artificielle
