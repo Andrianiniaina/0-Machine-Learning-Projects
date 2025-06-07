@@ -1,8 +1,3 @@
-You're looking to create a `README` file for your Walmart Sales Prediction project. This is a great way to summarize your work and make it accessible to others!
-
-Here's a structured `README` file that incorporates all the information you've provided, including the project's purpose, data, methodology, and results. I've used clear headings, bullet points, and code formatting where appropriate to make it easy to read.
-
-```markdown
 # Walmart Sales Prediction
 
 ## Project Overview
@@ -11,23 +6,23 @@ This project focuses on predicting weekly sales for Walmart stores using histori
 
 ## Table of Contents
 
-- [Project Overview](#project-overview)
-- [Data Source](#data-source)
-- [Features](#features)
-- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-- [Data Preprocessing](#data-preprocessing)
-  - [Handling Missing Values](#handling-missing-values)
-  - [Feature Engineering](#feature-engineering)
-  - [Outlier Removal](#outlier-removal)
-  - [Categorical and Numerical Feature Management](#categorical-and-numerical-feature-management)
-- [Modeling](#modeling)
-  - [Linear Regression (Baseline)](#linear-regression-baseline)
-  - [Ridge Regression](#ridge-regression)
-  - [ElasticNet Regression](#elasticnet-regression)
-- [Model Comparison and Results](#model-comparison-and-results)
-- [Conclusion](#conclusion)
-- [How to Run the Project](#how-to-run-the-project)
-- [Libraries Used](#libraries-used)
+- Project Overview
+- Data Source
+- Features
+- Exploratory Data Analysis (EDA)
+- Data Preprocessing
+  - Handling Missing Value
+  - Feature Engineering
+  - Outlier Removal
+  - Categorical and Numerical Feature Management
+- Modeling
+  - Linear Regression (Baseline)
+  - Ridge Regression
+  - ElasticNet Regression
+- Model Comparison and Results
+- Conclusion
+- How to Run the Project
+- Libraries Used
 
 ---
 
