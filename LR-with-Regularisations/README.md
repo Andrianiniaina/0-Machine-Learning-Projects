@@ -164,7 +164,6 @@ Both **Ridge** and **ElasticNet** regularization successfully addressed the over
 -   `joblib` (for caching)
 -   `seaborn` (for data visualization)
 -   `matplotlib.pyplot` (for plotting)
-```
 
 ## 👤 Author
 
