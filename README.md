@@ -1,5 +1,5 @@
 Description de la certification
-# Bloc 3 du diplôme d'état - RNCP35288 - Niveau 6
+# Bloc 3 - RNCP35288 CDSD
 
 Intitulé du bloc : 
 # Analyse prédictive de données structurées par l'intelligence artificielle
