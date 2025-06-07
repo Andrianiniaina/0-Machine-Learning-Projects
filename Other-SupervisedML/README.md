@@ -1,34 +1,67 @@
-# CONVERSION RATE CHALLENGE
+# 🧪 CONVERSION RATE CHALLENGE
 
-## Project goals
-**Create a model that predicts whether a given user will subscribe to the newsletter, using only a few pieces of information about the user.**
+## 🎯 Project Goals
+**Build a predictive model that determines whether a user will subscribe to a newsletter based on minimal behavioral and demographic data.**
 
-✅ Getting started with source data
-src
-|_conversion_data_train.csv : contains labelled data with columns country, age, new_user, source, total_pages_visited, converted 
-|_conversion_data_test.csv : contains unlabelled data (without the converted column (target variable))
-|_conversion_data_test_labels.csv : contains the converted column (target variable) need for the model evaluation after subbmission
+---
 
-✅ Make EDA
-* Data description
-* Some statistics
-* Manage outliers
-* Some visualizations
-* Preprocessing
+## 📁 Getting Started with the Data
 
-✅ Use template to have baseline model : Logistic Regression
-* Use one columns for training 'total_pages_visited'
-* Evaluate the model f1 score
-* Make predictions on the test set
-* Make submission to TA
+Located in the `src` folder:
 
-✅ Improve the model
-* Use more columns for training
-* Evaluate the model f1 score
-* Make predictions on the test set
-* Make submission to TA
+  - conversion_data_train.csv # Training data (with target 'converted')
+  - conversion_data_test.csv # Test data (without 'converted' column)
+  - conversion_data_test_labels.csv # True labels for test data (for evaluation after submission)
 
-✅ Analyse the results, Interpret the coefficients
-* Use the coefficients to interpret the model
 
-✅ Recommandations
+---
+
+## 📊 Exploratory Data Analysis (EDA)
+
+✅ Data description  
+✅ Summary statistics  
+✅ Outlier detection and handling  
+✅ Visualizations (distributions, correlations, etc.)  
+✅ Preprocessing (encoding, scaling)
+
+---
+
+## 🧪 Baseline Model – Logistic Regression
+
+✅ Use a template model using `total_pages_visited` as the sole feature  
+✅ Train a logistic regression  
+✅ Evaluate performance using **F1 Score**  
+✅ Make predictions on the test set  
+✅ Submit predictions to TA
+
+---
+
+## 📈 Model Improvement
+
+✅ Incorporate more features (`age`, `country`, `source`, `new_user`, etc.)  
+✅ Re-train and re-evaluate using **F1 Score**  
+✅ Improve preprocessing where necessary  
+✅ Generate and submit new predictions
+
+---
+
+## 🔍 Results Analysis & Interpretation
+
+✅ Use model coefficients to interpret feature importance and model behavior  
+✅ Discuss limitations and possible biases
+
+---
+
+## 📌 Recommendations
+
+- Try more advanced models (Random Forest, XGBoost)
+- Use hyperparameter tuning (GridSearchCV)
+- Test with class balancing techniques (e.g., SMOTE, weighted loss)
+- Consider feature interactions and polynomial terms
+
+---
+
+## 👤 Author
+
+Project by **Andriana**  
+GitHub: [https://github.com/Andrianiniaina/0-Machine-Learning-Projects]
