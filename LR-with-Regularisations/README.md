@@ -1,38 +1,16 @@
-# Walmart Sales Prediction
+# 🛍️ Walmart Sales Prediction
 
-## Project Overview
+## 🎯 Project Overview
 
 This project focuses on predicting weekly sales for Walmart stores using historical sales data and various related features. The goal is to build a robust regression model that can accurately forecast sales, helping with inventory management, staffing, and other business decisions.
 
-## Table of Contents
-
-- Project Overview
-- Data Source
-- Features
-- Exploratory Data Analysis (EDA)
-- Data Preprocessing
-  - Handling Missing Value
-  - Feature Engineering
-  - Outlier Removal
-  - Categorical and Numerical Feature Management
-- Modeling
-  - Linear Regression (Baseline)
-  - Ridge Regression
-  - ElasticNet Regression
-- Model Comparison and Results
-- Conclusion
-- How to Run the Project
-- Libraries Used
-
----
-
-## Data Source
+## 📁 Data Source
 
 The dataset used for this project is `Walmart_Store_sales.csv`, containing historical sales data for various Walmart stores.
 
 ---
 
-## Features
+## 🔍 Features
 
 The dataset includes the following features:
 
@@ -47,7 +25,7 @@ The dataset includes the following features:
 
 ---
 
-## Exploratory Data Analysis (EDA)
+## 📊 Exploratory Data Analysis (EDA)
 
 Initial EDA revealed:
 
@@ -58,24 +36,24 @@ Initial EDA revealed:
 
 ---
 
-## Data Preprocessing
+## 📋 Data Preprocessing
 
 The following steps were performed to prepare the data for modeling:
 
-### Handling Missing Values
+### ✅ Handling Missing Values
 
 - Rows with missing `Weekly_Sales` were dropped.
 - For other features, a `SimpleImputer` with a `most_frequent` strategy was used within the preprocessing pipeline.
 
-### Feature Engineering
+### ✅ Feature Engineering
 
 - The `Date` column was transformed into numerical features: `year`, `month`, `day`, and `weekday`. The original `Date` column was then dropped.
 
-### Outlier Removal
+### ✅ Outlier Removal
 
 Outliers for numerical features (`Temperature`, `Fuel_Price`, `CPI`, `Unemployment`) were removed using the **3-standard deviation rule**. Values outside the range $[X̄ - 3σ, X̄ + 3σ]$ were considered outliers.
 
-### Categorical and Numerical Feature Management
+### ✅ Categorical and Numerical Feature Management
 
 - **Categorical features**: `Store`, `Holiday_Flag`
   - Preprocessed using `SimpleImputer(strategy='most_frequent')` followed by `OneHotEncoder(handle_unknown='ignore', drop='first')`.
@@ -86,11 +64,11 @@ Outliers for numerical features (`Temperature`, `Fuel_Price`, `CPI`, `Unemployme
 
 ---
 
-## Modeling
+## 🛠️ Modeling
 
 The problem was framed as a regression task. The data was split into an 80% training set and a 20% test set. Three different linear regression models were trained and evaluated:
 
-### Linear Regression (Baseline)
+### ✅ Linear Regression (Baseline)
 
 - A standard `LinearRegression` model was used as a baseline.
 - **R² score on training set**: 0.9820
@@ -99,7 +77,7 @@ The problem was framed as a regression task. The data was split into an 80% trai
 - **MSE on test set**: 847,126,380.08
 - **Interpretation**: The model shows good performance on the training data but a noticeable drop on the test set, indicating potential overfitting.
 
-### Ridge Regression
+### ✅ Ridge Regression
 
 - `Ridge` regression was applied to address overfitting.
 - **Hyperparameter tuning**: `GridSearchCV` was used to find the optimal `alpha` value.
@@ -111,7 +89,7 @@ The problem was framed as a regression task. The data was split into an 80% trai
 - **MSE on test set**: 699,576,146.99
 - **Interpretation**: Ridge regularization significantly reduced overfitting, leading to a much better generalized model compared to the baseline.
 
-### ElasticNet Regression
+### ✅ ElasticNet Regression
 
 - `ElasticNet` regression was also employed as a regularization technique.
 - **Hyperparameter tuning**: `GridSearchCV` was used to find the optimal `alpha` and `l1_ratio`.
@@ -124,7 +102,7 @@ The problem was framed as a regression task. The data was split into an 80% trai
 
 ---
 
-## Model Comparison and Results
+## 📌 Model Comparison and Results
 
 A comparison of the coefficients and performance metrics for all three models:
 
@@ -139,13 +117,13 @@ A bar chart comparing the coefficients of the models is also available in the no
 
 ---
 
-## Conclusion
+## 🏆 Conclusion
 
 Both **Ridge** and **ElasticNet** regularization successfully addressed the overfitting observed in the baseline linear regression model. ElasticNet showed a slight edge in test R² score and slightly lower MSE on the test set, making it a strong contender for predicting Walmart weekly sales. The use of regularization is crucial for improving model generalization on unseen data.
 
 ---
 
-## How to Run the Project
+## 🚀 How to Run the Project
 
 1.  **Clone the repository**:
     ```bash
@@ -165,7 +143,7 @@ Both **Ridge** and **ElasticNet** regularization successfully addressed the over
 
 ---
 
-## Libraries Used
+## 🔧 Libraries Used
 
 -   `pandas` (for data manipulation)
 -   `numpy` (for numerical operations)
