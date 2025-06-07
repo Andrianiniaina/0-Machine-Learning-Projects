@@ -67,5 +67,5 @@ Key column:
 ## 👤 Author
 
 Project by **Andriana**  
-🔗 GitHub: [[https://github.com/tonprofil](https://github.com/Andrianiniaina/0-Machine-Learning-Projects)]([https://github.com/tonprofil](https://github.com/Andrianiniaina/0-Machine-Learning-Projects))
+🔗 GitHub: [https://github.com/Andrianiniaina/0-Machine-Learning-Projects]([https://github.com/tonprofil](https://github.com/Andrianiniaina/0-Machine-Learning-Projects)
 
